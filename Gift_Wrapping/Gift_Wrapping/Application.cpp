@@ -68,7 +68,7 @@ void mouse(int button, int state, int x, int y) {
 	}
 
 	//Finds the points wich belong to the convex hull.
-	if (button == GLUT_RIGHT_BUTTON && state == GLUT_DOWN && pointsArray.size()!= 0) {
+	if (button == GLUT_RIGHT_BUTTON && state == GLUT_DOWN && pointsArray.size() > 2) {
 		OrderedPair leftmost = pointsArray[0];
 		for (int i = 0; i < (int)pointsArray.size(); i++) {
 			if (pointsArray[i].getAxis_x() < leftmost.getAxis_x())

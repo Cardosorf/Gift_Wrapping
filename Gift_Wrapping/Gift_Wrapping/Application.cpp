@@ -126,8 +126,8 @@ void header() {
 	string name = "Rafael Pais Cardoso\n";
 	string dre = "DRE: 116140788";
 	string instruction1 = "Left mouse button -> creates connected points by lines";
-	string instruction2 = "Once the polygon is drawn, the left mouse button will draw points";
-	string instruction3 = "The console will display if this point is outside or inside the polygon.";
+	string instruction2 = "Right mouse button -> Gift wrap the points";
+	string instruction3 = "Enjoy :)";
 	int len_name = (int)name.length();
 	int len_dre = (int)dre.length();
 	int len_instruction1 = (int)instruction1.length();
